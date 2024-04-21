@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Login() {
   return (
     <ul>
-        <li><NavLink to='/login' className='login' target='_blank' >ورود </NavLink></li>
+        <li><NavLink to='/login' target='_blank' >ورود </NavLink></li>
     </ul>
   )
 }

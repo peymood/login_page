@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import NavBar from "./Header/NavBar"
-import Login from "./Header/Login"
-import SignUp from "./Header/SignUp"
+import LoginLink from "./Mainarea/LoginLink"
+
 
 
 function App() {
@@ -11,8 +11,7 @@ function App() {
       <div>
         <NavBar /> 
       <Routes>
-        <Route path="/login" Component={Login} />
-        <Route path="/SignUp" Component={SignUp} />
+        <Route path="/login" Component={LoginLink} /> 
       </Routes>
       </div>
     </BrowserRouter>

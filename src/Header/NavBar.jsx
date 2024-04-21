@@ -6,7 +6,7 @@ import SignUp from './SignUp'
 function NavBar() {
   return (
      <nav className='navbar' > 
-        <div>
+        <div className='navbarlinks'>
             <Link to='/'> برنامه  </Link>
             <Login /> 
             <SignUp /> 

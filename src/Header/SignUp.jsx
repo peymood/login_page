@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function SignUp() {
   return (
-    <ul className='signUp' >
+    <ul className='ul' >
         <li><NavLink to='/SignUp' target='_blank' >ثبت نام </NavLink></li>
     </ul>
   )

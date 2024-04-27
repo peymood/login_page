@@ -1,15 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Login from './Login'
-import SignUp from './SignUp'
+import { Link, NavLink } from 'react-router-dom'
+import LoginLink from './LoginLink'
+import SignUpLink from './SignUpLink'
+
 
 function NavBar() {
   return (
      <nav className='navbar' > 
         <div className='navbarlinks'>
             <Link to='/'> برنامه  </Link>
-            <Login /> 
-            <SignUp /> 
+            <LoginLink /> 
+            <SignUpLink /> 
         </div>
 
 

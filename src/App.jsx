@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { Route, Routes, BrowserRouter } from "react-router-dom"
 import NavBar from "./Header/NavBar"
-import LoginLink from "./Mainarea/LoginLink"
+import Login from "./Mainarea/Login"
 
 
 
@@ -8,12 +8,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
+      <div className="yek">
         <NavBar /> 
-      <Routes>
-        <Route path="/login" Component={LoginLink} /> 
-      </Routes>
       </div>
+      <Routes>
+        <Route path="/login" Component={Login} /> 
+
+      </Routes>
+    
     </BrowserRouter>
   )
 }

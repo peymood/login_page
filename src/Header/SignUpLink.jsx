@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function SignUp() {
+function SignUpLink() {
   return (
     <ul className='ul' >
         <li><NavLink to='/SignUp' target='_blank' >ثبت نام </NavLink></li>
@@ -9,4 +9,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default SignUpLink
